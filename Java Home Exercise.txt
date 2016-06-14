@@ -1,0 +1,29 @@
+Task
+----
+We would like a web-based form where the user can enter his name and surname. When the user submits the form, it will be
+saved in a database table called "users" and a message "Your name has been stored successfully" will be displayed.
+
+Implementation should:
+
+-    use best practice approach
+
+-    use Java only & spring-mvc (preferably 3+) & hibernate (preferably 3+)
+
+-    preferably use sql server or mysql databases. Please hand-code all ddl (i.e. don't export the ddl).
+
+-    use velocity/freemarker or jsp's to render html
+
+-    the quality of the html / css code is important too. Please do a best effort on your html/css code.
+
+-    don't use ANY code generator tool (i.e. roo) but maven is allowed and preferred.
+
+-	 implement some unit tests for each piece of logic 
+
+-    queue the dao write operations to a pool of 10 threads. Those background threads will actually store the user details in the database.
+
+-	 write one or more unit tests to make sure the multi thread read / write is working correctly
+ 
+Please provide:
+
+1.    a zip file with all the source code and the database ddl. There should be a build script, preferably a maven pom file. No war file is required.
+
